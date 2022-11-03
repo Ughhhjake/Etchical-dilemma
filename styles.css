@@ -17,3 +17,41 @@
   body {
     margin: 0;
   } 
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }  
+
+  .theStuff {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .box {
+    border: 1px solid red;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+  }
+  
+  #container {
+    width: 500px;
+    height: 500px;
+  }
+  
+  #container>div {
+    height: 25px;
+  }
+
+  div.box:hover {
+    background-color:red;
+}
